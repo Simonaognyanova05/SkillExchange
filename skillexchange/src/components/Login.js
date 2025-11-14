@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 export default function Login() {
     return (
         <section id="login" class="auth"
@@ -10,7 +12,7 @@ export default function Login() {
                 <input id="pass-login" type="password" placeholder="• • • • • •" />
                 <div style={{ display: "flex", gap: ".6rem", marginTop: ".6rem" }}>
                     <button class="btn primary" type="submit">Вход</button>
-                    <a href="#register" class="btn">Регистрация</a>
+                    <Link to="/register" class="btn">Регистрация</Link>
                 </div>
             </form>
         </section>
