@@ -6,8 +6,8 @@ export default function Header() {
             <Link className="brand" to="/">
                 <div className="logo">SE</div>
                 <div>
-                    <div style={{ fontWeight: "800" }}>SkillExchange</div>
-                    <div style={{ fontSize: ".8rem", color: "var(--muted)" }}>размяна на умения</div>
+                    <div style={{ fontWeight: "800" }}>ServiceExchange</div>
+                    <div style={{ fontSize: ".8rem", color: "var(--muted)" }}>размяна на услуги</div>
                 </div>
             </Link>
             <nav aria-label="Основна навигация">
